@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Caso a Caso</title>
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body data-case="0" data-stage="-1">
+	<header>
+		<div id="info">
+			<h1>CASO A CASO</h1>
+			<div>Oficina de Pensamento Computacional</div>
+		</div>
+		<div id="stages"></div>
+	</header>
+	<div id="board">
+		<div class="quad">
+			<div class="card-slot" data-tags="civil,cnat,cimp,conc,dolo,culpa">
+				<div class="card">
+					<div class="title">Homicídio</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Furto</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Roubo</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Latrocínio</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Assalto a Mão Armada</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Sequestro</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Roubo de Carga</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,infrml,priv,pub,dolo">
+				<div class="card">
+					<div class="title">Laranja</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Hackear Banco</div>
+				</div>
+			</div>
+		</div>
+		<div class="quad">
+			<div class="card-slot" data-tags="civil,pub,dolo">
+				<div class="card">
+					<div class="title">Invadir Sistema do Governo</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Violência Contra a Mulher</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,pub,dolo">
+				<div class="card">
+					<div class="title">Discriminação</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Receptação</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,cnat,cimp,dolo">
+				<div class="card">
+					<div class="title">Induzir ao Suicídio</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,cnat,cimp,conc,dolo,culpa">
+				<div class="card">
+					<div class="title">Lesão Corporal</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Violência Doméstica</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,cnat,cimp,aus,dolo">
+				<div class="card">
+					<div class="title">Omissão de Socorro</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Maus-tratos</div>
+				</div>
+			</div>
+		</div>
+		<div class="quad">
+			<div class="card-slot" data-tags="civil,pub,dolo">
+				<div class="card">
+					<div class="title">Moeda Falsa</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,pub,dolo">
+				<div class="card">
+					<div class="title">Falsidade Ideológica</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Apropriação Indébita</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,pub,dolo">
+				<div class="card">
+					<div class="title">Destruição de Patrimônio</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,pub,dolo">
+				<div class="card">
+					<div class="title">Falsificação de Documento Público</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,pub,dolo">
+				<div class="card">
+					<div class="title">Contrabando</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,pub,dolo">
+				<div class="card">
+					<div class="title">Tráfico de Influência</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,pub,dolo">
+				<div class="card">
+					<div class="title">Denunciação Caluniosa</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,priv,dolo">
+				<div class="card">
+					<div class="title">Abandono de Incapaz</div>
+				</div>
+			</div>
+		</div>
+		<div class="quad">
+			<div class="card-slot" data-tags="fpub,pub,dolo">
+				<div class="card">
+					<div class="title">Se Apropriar de Bem Publico</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="fpub,pub,dolo">
+				<div class="card">
+					<div class="title">Extraviar Documento Público</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="fpub,pub,dolo">
+				<div class="card">
+					<div class="title">Exigir Vantagem Indevida</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="fpub,pub,dolo">
+				<div class="card">
+					<div class="title">Aceitar/Receber Vantagem Indevida</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="fpub,pub,dolo">
+				<div class="card">
+					<div class="title">Retardar Prática da Lei</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="fpub,pub,dolo">
+				<div class="card">
+					<div class="title">Patrocinar Interesse Privado na ADM Pública</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,pub,dolo">
+				<div class="card">
+					<div class="title">Desacato à Autoridade</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,pub,dolo">
+				<div class="card">
+					<div class="title">Sonegação Fiscal</div>
+				</div>
+			</div>
+			<div class="card-slot" data-tags="civil,pub,dolo">
+				<div class="card">
+					<div class="title">Violência Politica</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="tree-wrapper" class="hidden">
+		<div id="tree">
+			<canvas></canvas>
+			<div class="layer">
+				<div class="node">Caso</div>
+			</div>
+			<div class="layer">
+				<div class="node" data-tag="civil">Civil</div>
+				<div class="node" data-tag="fpub">Funcionário Público</div>
+			</div>
+			<div class="layer">
+				<div class="node" data-tag="infrml">Informal</div>
+				<div class="node" data-tag="priv">Privado</div>
+				<div class="node" data-tag="pub">Público</div>
+			</div>
+			<div class="layer">
+				<div class="node" data-tag="cnat">Causalidade Natural</div>
+				<div class="node" data-tag="cimp">Causalidade Imputável</div>
+				<div class="node" data-tag="conc">Concausas</div>
+			</div>
+			<div class="layer">
+				<div class="node" data-tag="aus">Ausência</div>
+				<div class="node" data-tag="dolo">Dolo</div>
+				<div class="node" data-tag="culpa">Culpa</div>
+			</div>
+			<div class="layer">
+				<div class="node">Art. 20</div>
+				<div class="node">Art. 1º da Lei<br>nº 9.613/1998</div>
+				<div class="node">Art. 180</div>
+				<div class="node">Art. 333</div>
+				<div class="node">Art. 317</div>
+				<div class="node">Art. 316</div>
+				<div class="node">Art. 319</div>
+				<div class="node">Art. 312</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
